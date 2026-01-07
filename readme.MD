@@ -50,3 +50,7 @@
     ```
     helm install aws-load-balancer-controller eks/aws-load-balancer-controller -n kube-system --set clusterName=robomart-dev --set serviceAccount.create=false --set serviceAccount.name=aws-load-balancer-controller
     ```
+4.  To check driver's are running:
+    ```
+    kubectl get pods -n kube-system
+    ```
