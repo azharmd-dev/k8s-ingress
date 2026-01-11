@@ -27,6 +27,7 @@ spec:
       containers:
       - name: app1
         image: azharmd/app1:v1
+        imagePullPolicy: Always
 ---
 apiVersion: v1
 kind: Service
